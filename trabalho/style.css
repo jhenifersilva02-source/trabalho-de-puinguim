@@ -1,0 +1,37 @@
+/* 1. Reset universal */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* 2. Estilização do Cabeçalho */
+.cabecalho {
+    padding: 15px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #59dcee;
+}
+
+/* 3. Estrutura para fixar o rodapé */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #2edddd;
+}
+
+main {
+    flex: 1;
+}
+
+/* 4. Configuração do tamanho do Cartão */
+.cartao {
+    width: 260px;
+    height: 200px;
+}
+
+/* 5. Ajuste das Imagens */
+.cartao-imagem {
+    width: 100%;
+}
